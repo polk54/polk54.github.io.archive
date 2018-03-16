@@ -1,3 +1,4 @@
+/* ------------------------- Header Section ----------------------- */
 /* header box */
 .header {
   overflow: hidden;
@@ -27,7 +28,7 @@
   font-size:20px;
   margin-left: 40px;
 }
-
+/* ------------------------- Intro.Body Section ----------------------- */
 body{
   padding: 30px;
 }
@@ -56,6 +57,7 @@ a:hover{
   line-height:32px;
 }
 
+/* ------------------------- Projects.Body Section ----------------------- */
 #hobby{
   border-bottom: 1px solid black;
 }
