@@ -25,6 +25,7 @@
 /* name on the left of the header */
 #name{
   font-size:20px;
+  margin-left: 40px;
 }
 
 body{
@@ -49,8 +50,10 @@ a:hover{
 #intro{
   padding-top: 50px;
   padding-bottom: 30px;
-  font-size: 20px;
+  padding-left: 50px;
+  font-size: 24px;
   border-bottom: 1px solid #DCDCDC;
+  line-height:32px;
 }
 
 #hobby{
@@ -60,6 +63,7 @@ a:hover{
 /* larger project div */
 #projects{
   margin-top: 20px;
+  margin-left: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
