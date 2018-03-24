@@ -1,3 +1,13 @@
+/* ------------------------- General Styling ----------------------- */
+
+/* change color of selection */
+::selection {
+  background: #BFEADA; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #BFEADA; /* Gecko Browsers */
+}
+
 /* ------------------------- Header Section ----------------------- */
 /* header box */
 .header {
@@ -66,6 +76,7 @@ a:hover{
 #projects{
   margin-top: 20px;
   margin-left: 30px;
+  margin-bottom: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
@@ -78,4 +89,31 @@ a:hover{
   margin: 20px;
   padding: 20px;
   border: 1px solid black;
+}
+/* ------------------------- Footer ----------------------- */
+#footer{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  font-size: 12px;
+  border-top: 1px solid #DCDCDC;
+}
+
+/* -------------------------------------------------------- */
+/* Contact Page */
+/* -------------------------------------------------------- */
+#contactcontent{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  padding-left: 50px;
+}
+
+#cartoonParul{
+  padding-right: 50px;
+}
+
+.contactboxes{
+  margin: 20px;
+  padding-top: 80px;
 }
