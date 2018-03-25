@@ -39,6 +39,13 @@
   font-size:20px;
   margin-left: 30px;
 }
+
+ @media only screen and (max-width: 600px) {
+   #name{
+     font-size:20px;
+     margin-left: 5px;
+   }
+ }
 /* ------------------------- Intro.Body Section ----------------------- */
 body{
   padding: 30px;
@@ -109,16 +116,18 @@ a:hover{
   margin: 30px;
 }
 
-#cartoonParul{
-  padding-right: 50px;
-  padding-left: 50px;
-  width: 320px;
-}
+@media only screen and (min-width: 601px){
+  #cartoonParul{
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 320px;
+  }
 
-.contactboxes{
-  margin: 20px;
-  padding-top: 80px;
-  flex-wrap: wrap;
+  .contactboxes{
+    margin: 20px;
+    padding-top: 80px;
+    flex-wrap: wrap;
+  }
 }
 
  /* for mobile */
@@ -128,25 +137,30 @@ a:hover{
    }
 
    .contactboxes{
-     margin: 20px;
+     margin: 5px;
      flex-wrap: wrap;
    }
  }
 /* -------------------------------------------------------- */
 /* Design Page */
 /* -------------------------------------------------------- */
-#designcontent{
-  margin: 30px;
-  padding-left: 50px;
-}
+@media only screen and (min-width: 601px){
+  #designcontent{
+    margin: 30px;
+    padding-left: 50px;
+  }
 
-#design{
-  display: block;
-  height: 100%
+  #design{
+    display: block;
+    height: 100%;
+  }
 }
  /* for mobile */
 @media only screen and (max-width: 600px) {
     #design {
-        width: 320px;
+        width: 300px;
+        height: 100%;
+        display: block;
+        padding: 5px;
     }
 }
