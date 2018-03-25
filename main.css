@@ -107,11 +107,11 @@ a:hover{
   display: flex;
   flex-wrap: wrap;
   margin: 30px;
-  margin-left: 50px;
 }
 
 #cartoonParul{
   padding-right: 50px;
+  padding-left: 50px;
   width: 320px;
 }
 
@@ -120,6 +120,18 @@ a:hover{
   padding-top: 80px;
   flex-wrap: wrap;
 }
+
+ /* for mobile */
+ @media only screen and (max-width: 600px) {
+   #cartoonParul{
+     width: 300px;
+   }
+
+   .contactboxes{
+     margin: 20px;
+     flex-wrap: wrap;
+   }
+ }
 /* -------------------------------------------------------- */
 /* Design Page */
 /* -------------------------------------------------------- */
@@ -131,4 +143,10 @@ a:hover{
 #design{
   display: block;
   height: 100%
+}
+ /* for mobile */
+@media only screen and (max-width: 600px) {
+    #design {
+        width: 320px;
+    }
 }
