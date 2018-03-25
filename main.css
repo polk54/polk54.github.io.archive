@@ -14,6 +14,7 @@
   overflow: hidden;
   padding-bottom: 5px;
   border-bottom: 1px solid #DCDCDC;
+  flex-wrap: wrap;
 }
 
 /* header links */
@@ -54,7 +55,7 @@ a{
 }
 
 a:hover{
-  color: white;
+  color: #DCDCDC;
   text-decoration: none;
 }
 
@@ -126,4 +127,5 @@ a:hover{
   flex-wrap: wrap;
   margin: 30px;
   padding-left: 50px;
+  width: 800px;
 }
