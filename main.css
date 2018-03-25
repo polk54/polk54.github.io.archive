@@ -111,9 +111,19 @@ a:hover{
 
 #cartoonParul{
   padding-right: 50px;
+  width: 320px;
 }
 
 .contactboxes{
   margin: 20px;
   padding-top: 80px;
+}
+/* -------------------------------------------------------- */
+/* Design Page */
+/* -------------------------------------------------------- */
+#designcontent{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  padding-left: 50px;
 }
