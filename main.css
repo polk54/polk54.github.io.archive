@@ -124,9 +124,11 @@ a:hover{
 /* Design Page */
 /* -------------------------------------------------------- */
 #designcontent{
-  display: flex;
-  flex-wrap: wrap;
   margin: 30px;
   padding-left: 50px;
-  width: 800px;
+}
+
+#design{
+  display: block;
+  height: 100%
 }
