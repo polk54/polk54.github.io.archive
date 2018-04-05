@@ -2,10 +2,10 @@
 
 /* change color of selection */
 ::selection {
-  background: #f442a7; /* WebKit/Blink Browsers */
+  background: #BFEADA; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: #f442a7; /* Gecko Browsers */
+  background: #BFEADA; /* Gecko Browsers */
 }
 
 /* ------------------------- Header Section ----------------------- */
@@ -19,7 +19,7 @@
 /* header links */
 .header a {
   float: left;
-  color: #f442a7;
+  color: #23B1A5;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -70,7 +70,7 @@ a:hover{
   padding-bottom: 70px;
   padding-left: 50px;
   font-size: 24px;
-  border-bottom: 1px solid #f442a7;
+  border-bottom: 1px solid #BFEADA;
   line-height:32px;
 }
  @media only screen and (max-width: 600px) {
@@ -78,7 +78,7 @@ a:hover{
      padding-top: 50px;
      padding-left: 20px;
      font-size: 24px;
-     border-bottom: 1px solid #f442a7;
+     border-bottom: 1px solid #BFEADA;
      line-height:32px;
    }
    body{
@@ -87,7 +87,8 @@ a:hover{
  }
 /* ------------------------- Projects.Body Section ----------------------- */
 #hobby{
-  border-bottom: 1px solid black;
+  text-decoration: underline;
+  text-decoration-color: #BFEADA;
 }
 
 /* larger project div */
@@ -108,13 +109,17 @@ a:hover{
   padding: 20px;
   border: 1px solid black;
 }
+
+/* adding images to the hover on projects */
+
+
 /* ------------------------- Footer ----------------------- */
 #footer{
   padding-top: 50px;
   padding-bottom: 30px;
   padding-left: 50px;
   font-size: 12px;
-  border-top: 1px solid #f442a7;
+  border-top: 1px solid #FDB44B;
 }
 
 /* -------------------------------------------------------- */
