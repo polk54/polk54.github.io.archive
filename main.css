@@ -8,6 +8,16 @@
   background: #BFEADA; /* Gecko Browsers */
 }
 
+/* all links */
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #DCDCDC;
+  text-decoration: none;
+}
 /* ------------------------- Header Section ----------------------- */
 /* header box */
 .header {
@@ -28,17 +38,18 @@
   border-radius: 4px;
 }
 
-/* right side of the header */
+/* contact on right side of the header */
 .header-right {
   float: right;
 }
 
 /* name on the left of the header */
 #name{
-  font-size:20px;
+  font-size:30px;
   margin-left: 30px;
 }
 
+/* for mobile */
  @media only screen and (max-width: 600px) {
    #name{
      font-size:20px;
@@ -46,6 +57,7 @@
    }
  }
 /* ------------------------- Intro.Body Section ----------------------- */
+
 body{
   padding: 30px;
 }
@@ -54,42 +66,40 @@ div{
   font-family: 'Roboto Mono', monospace;
 }
 
-/* all links */
-a{
-  color: black;
-  text-decoration: none;
-}
-
-a:hover{
-  color: #DCDCDC;
-  text-decoration: none;
-}
-
 #intro{
+  max-width: 900px;
   padding-top: 50px;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
   padding-left: 50px;
-  font-size: 24px;
-  border-bottom: 1px solid #BFEADA;
-  line-height:32px;
+  font-size: 16px;
+  line-height:24px;
 }
+
+/* for mobile */
  @media only screen and (max-width: 600px) {
    #intro{
-     padding-top: 50px;
+     width: auto;
+     padding-top: 20px;
      padding-left: 20px;
-     font-size: 24px;
-     border-bottom: 1px solid #BFEADA;
-     line-height:32px;
+     font-size: 14px;
+     line-height: 20px;
    }
    body{
      padding: 20px;
    }
  }
+
+ /* drawing and graphic design */
+ #hobby{
+   text-decoration: underline;
+   text-decoration-color: #BFEADA;
+   color: #23B1A5;
+ }
+ #hobby:hover{
+   color: #DCDCDC;
+   text-decoration: none;
+ }
 /* ------------------------- Projects.Body Section ----------------------- */
-#hobby{
-  text-decoration: underline;
-  text-decoration-color: #BFEADA;
-}
 
 /* larger project div */
 #projects{
@@ -99,6 +109,7 @@ a:hover{
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
+  border-top: 1px solid #BFEADA;
 }
 
 /* individual projects */
@@ -110,7 +121,34 @@ a:hover{
   border: 1px solid black;
 }
 
-/* adding images to the hover on projects */
+/* Adding hover items to individual projects */
+#project .skills{
+  padding-top: 70px;
+  visibility:hidden;
+  font-size:12px;
+}
+
+#project:hover .skills{
+  padding-top: 70px;
+  visibility:visible;
+  color: #23B1A5;
+  font-size:12px;
+}
+
+/* Adding hover items to individual projects - for projects with extra lines */
+#project .skills2{
+  padding-top: 50px;
+  visibility:hidden;
+  font-size:12px;
+  font-size:12px;
+}
+
+#project:hover .skills2{
+  padding-top: 50px;
+  visibility:visible;
+  color: #23B1A5;
+  font-size:12px;
+}
 
 
 /* ------------------------- Footer ----------------------- */
@@ -131,6 +169,7 @@ a:hover{
   margin: 30px;
 }
 
+/* for mobile */
 @media only screen and (min-width: 601px){
   #cartoonParul{
     padding-right: 50px;
@@ -160,6 +199,8 @@ a:hover{
 /* -------------------------------------------------------- */
 /* Design Page */
 /* -------------------------------------------------------- */
+
+/* for mobile */
 @media only screen and (min-width: 601px){
   #designcontent{
     margin: 30px;
@@ -188,6 +229,8 @@ a:hover{
 /* -------------------------------------------------------- */
 /* Project Pages */
 /* -------------------------------------------------------- */
+
+/* for mobile */
 @media only screen and (min-width: 601px){
   #projectTitle{
     margin-left: 40px;
