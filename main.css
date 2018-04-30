@@ -128,31 +128,30 @@ div{
 
 /* Adding hover items to individual projects */
 #project .skills{
-  padding-top: 70px;
+  padding-top: 60px;
   visibility:hidden;
-  font-size:12px;
+  font-size:14px;
 }
 
 #project:hover .skills{
-  padding-top: 70px;
+  padding-top: 60px;
   visibility:visible;
   color: #23B1A5;
-  font-size:12px;
+  font-size:14px;
 }
 
 /* Adding hover items to individual projects - for projects with extra lines */
 #project .skills2{
-  padding-top: 50px;
+  padding-top: 40px;
   visibility:hidden;
-  font-size:12px;
-  font-size:12px;
+  font-size:14px;
 }
 
 #project:hover .skills2{
-  padding-top: 50px;
+  padding-top: 40px;
   visibility:visible;
   color: #23B1A5;
-  font-size:12px;
+  font-size:14px;
 }
 
 
