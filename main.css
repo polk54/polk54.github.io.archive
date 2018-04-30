@@ -38,6 +38,11 @@ a:hover{
   border-radius: 4px;
 }
 
+.header a:hover{
+  color: #DCDCDC;
+  text-decoration: none;
+}
+
 /* contact on right side of the header */
 .header-right {
   float: right;
