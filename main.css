@@ -2,10 +2,10 @@
 
 /* change color of selection */
 ::selection {
-  background: #BFEADA; /* WebKit/Blink Browsers */
+  background: #FEE7E3; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: #BFEADA; /* Gecko Browsers */
+  background: #FEE7E3; /* Gecko Browsers */
 }
 
 /* all links */
@@ -15,8 +15,9 @@ a{
 }
 
 a:hover{
-  color: #DCDCDC;
+  color: #E9A8A8;
   text-decoration: none;
+  font-style: italic;
 }
 /* ------------------------- Header Section ----------------------- */
 /* header box */
@@ -29,7 +30,7 @@ a:hover{
 /* header links */
 .header a {
   float: left;
-  color: #23B1A5;
+  color: black;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -39,8 +40,9 @@ a:hover{
 }
 
 .header a:hover{
-  color: #DCDCDC;
+  color: #E9A8A8;
   text-decoration: none;
+  font-style: italic;
 }
 
 /* contact on right side of the header */
@@ -48,10 +50,10 @@ a:hover{
   float: right;
 }
 
-/* name on the left of the header */
+/* name on the left of the header - Parul Agarwal*/
 #name{
-  font-size:30px;
-  margin-left: 30px;
+  font-size:40px;
+  margin-left: 35px;
 }
 
 /* for mobile */
@@ -63,6 +65,11 @@ a:hover{
  }
 /* ------------------------- Intro.Body Section ----------------------- */
 
+#firstline{
+  background-color: #FEE7E3;
+  max-width: 250px;
+}
+
 body{
   padding: 30px;
 }
@@ -73,11 +80,12 @@ div{
 
 #intro{
   max-width: 900px;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 50px;
-  font-size: 16px;
-  line-height:24px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
 }
 
 /* for mobile */
@@ -86,7 +94,7 @@ div{
      width: auto;
      padding-top: 20px;
      padding-left: 20px;
-     font-size: 14px;
+     font-size: 16px;
      line-height: 20px;
    }
    body{
@@ -96,12 +104,10 @@ div{
 
  /* drawing and graphic design */
  #hobby{
-   text-decoration: underline;
-   text-decoration-color: #BFEADA;
-   color: #23B1A5;
+   color: #E9A8A8;
  }
  #hobby:hover{
-   color: #DCDCDC;
+   color: black;
    text-decoration: none;
  }
 /* ------------------------- Projects.Body Section ----------------------- */
@@ -114,7 +120,7 @@ div{
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
-  border-top: 1px solid #BFEADA;
+  border-top: 1px solid #E9A8A8;
 }
 
 /* individual projects */
@@ -123,7 +129,7 @@ div{
   height:175px;
   margin: 20px;
   padding: 20px;
-  border: 1px solid black;
+  border: 1px dotted black;
 }
 
 /* Adding hover items to individual projects */
@@ -136,7 +142,7 @@ div{
 #project:hover .skills{
   padding-top: 60px;
   visibility:visible;
-  color: #23B1A5;
+  color: black;
   font-size:14px;
 }
 
@@ -150,7 +156,7 @@ div{
 #project:hover .skills2{
   padding-top: 40px;
   visibility:visible;
-  color: #23B1A5;
+  color: black;
   font-size:14px;
 }
 
@@ -161,7 +167,7 @@ div{
   padding-bottom: 30px;
   padding-left: 50px;
   font-size: 12px;
-  border-top: 1px solid #FDB44B;
+  border-top: 1px solid #E9A8A8;
 }
 
 /* -------------------------------------------------------- */
@@ -246,7 +252,7 @@ div{
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 30px;
-    font-size: 14px;
+    font-size: 16px;
   }
   #causalpathway{
     max-width: 900px;
