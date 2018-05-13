@@ -60,7 +60,7 @@ a:hover{
  @media only screen and (max-width: 600px) {
    #name{
      font-size:20px;
-     margin-left: 5px;
+     margin-left: 0px;
    }
  }
 /* ------------------------- Intro.Body Section ----------------------- */
@@ -93,7 +93,7 @@ div{
    #intro{
      width: auto;
      padding-top: 20px;
-     padding-left: 20px;
+     padding-left: 10px;
      font-size: 16px;
      line-height: 20px;
    }
@@ -210,7 +210,7 @@ div{
 /* Design Page */
 /* -------------------------------------------------------- */
 
-/* for mobile */
+/* for computer */
 @media only screen and (min-width: 601px){
   #designcontent{
     margin: 30px;
@@ -240,16 +240,18 @@ div{
 /* Project Pages */
 /* -------------------------------------------------------- */
 
-/* for mobile */
+/* for computer */
 @media only screen and (min-width: 601px){
   #projectTitle{
-    margin-left: 40px;
+    margin-left: 50px;
     margin-top: 40px;
     font-size: 20px;
+    background-color: #FEE7E3;
+    width: auto;
   }
   #projectContent{
     display: block;
-    margin-left: 40px;
+    margin-left: 50px;
     margin-right: 40px;
     margin-top: 30px;
     font-size: 16px;
@@ -277,13 +279,17 @@ div{
  /* for mobile */
 @media only screen and (max-width: 600px) {
   #projectTitle{
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
     font-size: 14px;
+    background-color: #FEE7E3;
+    width: auto;
   }
 
   #projectContent{
     display: block;
     margin-top: 20px;
+    margin-left: 10px;
     font-size: 12px;
   }
   #charts{
