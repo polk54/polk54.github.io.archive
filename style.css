@@ -42,6 +42,10 @@ a:hover{
     #topnav {
        float: left;
     }
+    #navlink {
+        padding: 5px;
+        font-size: 14px;
+    }
 }
 /* spacing between links */
 #navlink {
@@ -54,32 +58,41 @@ a:hover{
     color: #D93A95;
     text-decoration: none;
 }
-#topnav a:hover {
+@media only screen and (min-width: 601px) {
+   #topnav a:hover {
     color: #00B7EC;
+    }
+    #topnav a:before {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 3px;
+        bottom: 0;
+        background-color: #00B7EC;
+        visibility: hidden;
+        -webkit-transform: scaleX(0); 
+        transform: scaleX(0);
+        -webkit-transition: width 0.3s ease-in-out 0s; 
+        transition: width 0.3s ease-in-out 0s;
+    }
+    #topnav a:hover:before {
+        visibility: visible;
+        width: 90%;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1); 
+    }
 }
-#topnav a:before {
-    content: "";
-    position: absolute;
-    width: 0%;
-    height: 3px;
-    bottom: 0;
-    background-color: #00B7EC;
-    visibility: hidden;
-    -webkit-transform: scaleX(0); 
-    transform: scaleX(0);
-    -webkit-transition: width 0.3s ease-in-out 0s; 
-    transition: width 0.3s ease-in-out 0s;
+
+@media only screen and (max-width: 600px){
+   #topnav a{
+    color: #D93A95; 
+    text-decoration: none;
 }
-#topnav a:hover:before {
-    visibility: visible;
-    width: 90%;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1); 
-}
-@media only screen and (max-width: 600px) (hover: none) {
-   a:link {
-      color: #D93A95;
-   }
+
+    #topnav a:hover{
+        color: #00B7EC; 
+        text-decoration: none;
+    }
 }
 /* ------------------------- Header --------------------------- */
 #parul{
@@ -89,7 +102,7 @@ a:hover{
 }
 @media only screen and (max-width: 600px) {
     #parul {
-        font-size: 70px;
+        font-size: 63px;
     }
 }
 /* ------------------------- Maker Section --------------------------- */
