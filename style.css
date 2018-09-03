@@ -236,7 +236,7 @@ footer{
         margin-top: 50px;
         margin-left: 0px;
         height: 5px;
-        width: 500px;
+        width: 250px;
         background: #F8C3DA;
     }
     #contactboxes{
@@ -298,14 +298,14 @@ footer{
     #projectContent{
         display: block;
         margin-top: 20px;
-        padding-right: 25px;
+        padding-right: 50px;
         font-size: 14px;
         line-height: 1.6;
     }
     #about{
         display: block;
         margin-top: 20px;
-        padding-right: 25px;
+        padding-right: 50px;
         font-size: 14px;
         line-height: 1.6;
     }
