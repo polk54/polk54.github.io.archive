@@ -8,7 +8,7 @@ body{
 }
 @media only screen and (max-width: 600px) {
     body {
-        margin-left: 25px;
+        margin-left: 50px;
         margin-right: 0px;
     }
 }
@@ -36,11 +36,13 @@ a:hover{
 /* ------------------------- Navigation Bar --------------------------- */
 /* moves the navigation menu to the right */
 #topnav {
-    float: right;
+    float: right !important;
+    text-align: right !important;
 }
 @media only screen and (max-width: 600px) {
     #topnav {
-       float: left;
+       float: left !important;
+        text-align: left !important;
     }
     #navlink {
         padding: 5px;
@@ -114,6 +116,14 @@ a:hover{
     height: 10px;
     width: auto;
     background: #F8C3DA;
+}
+@media only screen and (max-width: 600px) {
+    #divider{
+        margin: 50px 0px 10px 0px;
+        height: 10px;
+        width: 300px;
+        background: #F8C3DA;
+    }
 }
 /* ------------------------- Projects --------------------------- */
 #projects{
