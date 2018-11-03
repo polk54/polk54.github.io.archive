@@ -200,6 +200,23 @@ footer{
 }
 
 /* -------------------------------------------------------- */
+/* About Page */
+/* -------------------------------------------------------- */
+#divider2{
+    margin: 30px 0px 30px 0px;
+    height: 5px;
+    width: auto;
+    background: #F8C3DA;
+}
+@media only screen and (max-width: 600px) {
+    #divider2{
+        margin: 30px 0px 30px 0px;
+        height: 5px;
+        width: 300px;
+        background: #F8C3DA;
+    }
+}
+/* -------------------------------------------------------- */
 /* Contact Page */
 /* -------------------------------------------------------- */
 #contact{
