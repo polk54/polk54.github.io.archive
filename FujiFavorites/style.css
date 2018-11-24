@@ -1,0 +1,336 @@
+/* ------------------------- Grid --------------------------------- */
+body{
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    font-family: "Open Sans", sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+}
+/* ------------------------- General Styling ----------------------- */
+/* change color of selection */
+::selection {
+    background: #F8C3DA; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    background: #F8C3DA; /* Gecko Browsers */
+}
+
+/* all links */
+
+a{
+    color: #D93A95; 
+    text-decoration: none;
+}
+
+a:hover{
+    color: #00B7EC; 
+    text-decoration: none;
+}
+
+/* ------------------------- Navigation Bar --------------------------- */
+/* moves the navigation menu to the right */
+#topnav {
+    float: right;
+    text-align: right;
+    flex-wrap:initial;
+}
+@media only screen and (max-width: 600px) {
+    #topnav {
+        float: left;
+        text-align: left;
+        flex-wrap:initial;
+    }
+    #navlink {
+        padding: 5px;
+        font-size: 14px;
+    }
+}
+/* spacing between links */
+#navlink {
+    padding: 5px 10px 5px 0px;
+    font-size: 21px;
+}
+/* navigation menu links */
+#topnav a {
+    position: relative;
+    color: #D93A95;
+    text-decoration: none;
+}
+@media only screen and (min-width: 601px) {
+   #topnav a:hover {
+    color: #00B7EC;
+    }
+    #topnav a:before {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 3px;
+        bottom: 0;
+        background-color: #00B7EC;
+        visibility: hidden;
+        -webkit-transform: scaleX(0); 
+        transform: scaleX(0);
+        -webkit-transition: width 0.3s ease-in-out 0s; 
+        transition: width 0.3s ease-in-out 0s;
+    }
+    #topnav a:hover:before {
+        visibility: visible;
+        width: 90%;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1); 
+    }
+}
+
+@media only screen and (max-width: 600px){
+   #topnav a{
+    color: #D93A95; 
+    text-decoration: none;
+}
+
+    #topnav a:hover{
+        color: #00B7EC; 
+        text-decoration: none;
+    }
+}
+/* ------------------------- Header --------------------------- */
+#parul{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 84px;
+}
+@media only screen and (max-width: 600px) {
+    #parul {
+        font-size: 63px;
+    }
+}
+/* ------------------------- Maker Section --------------------------- */
+#maker{
+    font-size: 28px;
+}
+#divider{
+    margin: 50px 0px 10px 0px;
+    height: 10px;
+    width: auto;
+    background: #F8C3DA;
+}
+@media only screen and (max-width: 600px) {
+    #divider{
+        margin: 50px 0px 10px 0px;
+        height: 10px;
+        width: 300px;
+        background: #F8C3DA;
+    }
+}
+/* ------------------------- Projects --------------------------- */
+#projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 50px;
+}
+#project{
+    width: 250px;
+    height: 350px;
+    border: 1px solid #F8C3DA;
+    margin: 25px 50px 25px 0px;
+}
+#projectimage{
+    position: absolute;
+    height: 150px;
+    width: auto;
+    margin-left: 25px;
+    padding: 90px 0px 0px 0px;
+}
+#projectimagemid{
+    position: absolute;
+    height: 150px;
+    width: auto;
+    margin-left: 25px;
+    padding: 90px 0px 0px 25px;
+}
+#projecttitle{
+    position: relative;
+    padding: 25px 0px 0px 25px;
+    font-size: 21px;
+}
+#projectcontent{
+    position: relative;
+    margin-top: 175px;
+    margin-left: 25px;
+    min-width: 225px;
+}
+#projectdescription{
+    display: inline-grid;
+    width: 125px;
+    height: 70px;
+    font-size: 12px;
+    padding-right: 5px;
+    border-right: 3px solid #F8C3DA;
+}
+#projecttools{
+    display: inline-grid;
+    width: 80px;
+    height: 75px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+/* project card links */
+#project a {
+    color: black;
+}
+#project:hover {
+    border: 1px solid #00B7EC;
+    box-shadow: 5px 10px 18px #0066B0;
+}
+@media only screen and (max-width: 600px) (hover: none) {
+   #project a:link {
+      color: black;
+   }
+}
+/* ------------------------- Footer --------------------------- */
+footer{
+    margin-top: 100px;
+    font-size: 14px;
+}
+
+/* -------------------------------------------------------- */
+/* About Page */
+/* -------------------------------------------------------- */
+#divider2{
+    margin: 30px 0px 30px 0px;
+    height: 5px;
+    width: auto;
+    background: #F8C3DA;
+}
+@media only screen and (max-width: 600px) {
+    #divider2{
+        margin: 30px 0px 30px 0px;
+        height: 5px;
+        width: 300px;
+        background: #F8C3DA;
+    }
+}
+/* -------------------------------------------------------- */
+/* Contact Page */
+/* -------------------------------------------------------- */
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+#contacttitle{
+    padding-top: 50px;
+    font-size: 38px;
+}  
+#cartoonParul{
+    margin-top: 50px;
+    width: 250px;
+  }
+#contactbar{
+    margin-top: 50px;
+    margin-left: 75px;
+    height: 315px;
+    width: 5px;
+    background: #F8C3DA;
+}
+  #contactboxes{
+    margin-left: 75px;
+    padding-top: 80px;
+    font-size: 21px;
+  }
+
+ /* for mobile */
+ @media only screen and (max-width: 600px) {
+    #cartoonParul{
+        width: 250px;
+    }
+    #contactbar{
+        margin-top: 50px;
+        margin-left: 0px;
+        height: 5px;
+        width: 250px;
+        background: #F8C3DA;
+    }
+    #contactboxes{
+        margin-left: 0px;
+        padding-top: 25px;
+        flex-wrap: wrap;
+    }
+}
+/* -------------------------------------------------------- */
+/* Project Pages */
+/* -------------------------------------------------------- */
+/* for computer */
+@media only screen and (min-width: 601px){
+    #projectTitle{
+        padding-top: 50px;
+        font-size: 38px;
+        width: auto;
+    }
+    #projectContent{
+        display: block;
+        margin: 50px 0px 0px 100px;
+        max-width: 900px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    #about{
+        display: block;
+        margin: 50px 0px 0px 100px;
+        max-width: 900px;
+        font-size: 21px;
+        line-height: 1.6;
+    }
+    #causalpathway{
+        max-width: 900px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #slums{
+        max-width: 900px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #charts{
+        max-width: 900px;
+        height: 500px;
+        display: block;
+        margin-right: auto;
+    }
+}
+/* for mobile */
+@media only screen and (max-width: 600px) {
+    #projectTitle{
+        padding-top: 50px;
+        font-size: 21px;
+        width: auto;
+    }
+    #projectContent{
+        display: block;
+        margin-top: 20px;
+        padding-right: 50px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    #about{
+        display: block;
+        margin-top: 20px;
+        padding-right: 50px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    #charts{
+        max-width: 700px;
+        height: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
