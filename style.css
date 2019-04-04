@@ -35,10 +35,8 @@ a:hover{
 }
 
 #caption{
-    display: block;
+    text-align: center;
     font-size: 12px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 /* ------------------------- Navigation Bar --------------------------- */
