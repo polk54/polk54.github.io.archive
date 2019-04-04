@@ -12,6 +12,12 @@ body{
         margin-right: 0px;
     }
 }
+
+center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* ------------------------- General Styling ----------------------- */
 /* change color of selection */
 ::selection {
@@ -33,6 +39,9 @@ a:hover{
     text-decoration: none;
 }
 
+caption{
+    font-size: 10px;
+}
 /* ------------------------- Navigation Bar --------------------------- */
 /* moves the navigation menu to the right */
 #topnav {
