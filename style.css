@@ -1,15 +1,16 @@
 /* ------------------------- Grid --------------------------------- */
 body{
-    margin-top: 50px;
-    margin-right: 100px;
+    margin:auto;
+    max-width:920px;
+    padding-top: 50px;
+    padding-left:50px;
     margin-bottom: 50px;
-    margin-left: 100px;
     font-family: "Open Sans", sans-serif;
 }
 @media only screen and (max-width: 600px) {
     body {
-        margin-left: 50px;
-        margin-right: 0px;
+        margin-left: 80px;
+        margin-right: 20px;
     }
 }
 
@@ -25,12 +26,12 @@ body{
 /* all links */
 
 a{
-    color: #D93A95; 
+    color: #D93A95;
     text-decoration: none;
 }
 
 a:hover{
-    color: #00B7EC; 
+    color: #00B7EC;
     text-decoration: none;
 }
 
@@ -45,12 +46,14 @@ a:hover{
     float: right;
     text-align: right;
     flex-wrap:initial;
+    padding-right: 50px;
 }
 @media only screen and (max-width: 600px) {
     #topnav {
         float: left;
         text-align: left;
         flex-wrap:initial;
+        padding: 0px;
     }
     #navlink {
         padding: 5px;
@@ -65,8 +68,9 @@ a:hover{
 /* navigation menu links */
 #topnav a {
     position: relative;
-    color: #D93A95;
+    color: #F8C3DA;
     text-decoration: none;
+    font-size: 20px;
 }
 @media only screen and (min-width: 601px) {
    #topnav a:hover {
@@ -80,58 +84,78 @@ a:hover{
         bottom: 0;
         background-color: #00B7EC;
         visibility: hidden;
-        -webkit-transform: scaleX(0); 
+        -webkit-transform: scaleX(0);
         transform: scaleX(0);
-        -webkit-transition: width 0.3s ease-in-out 0s; 
+        -webkit-transition: width 0.3s ease-in-out 0s;
         transition: width 0.3s ease-in-out 0s;
     }
     #topnav a:hover:before {
         visibility: visible;
         width: 90%;
         -webkit-transform: scaleX(1);
-        transform: scaleX(1); 
+        transform: scaleX(1);
     }
 }
 
 @media only screen and (max-width: 600px){
    #topnav a{
-    color: #D93A95; 
+    color: #F8C3DA;
     text-decoration: none;
 }
 
     #topnav a:hover{
-        color: #00B7EC; 
+        color: #00B7EC;
         text-decoration: none;
     }
 }
 /* ------------------------- Header --------------------------- */
 #parul{
-    padding-top: 50px;
-    padding-bottom: 25px;
+    padding-top: 100px;
+    padding-bottom: 60px;
     font-size: 84px;
 }
 @media only screen and (max-width: 600px) {
     #parul {
-        font-size: 63px;
+        padding-top: 75px;
+        padding-bottom: 30px;
+        font-size: 58px;
     }
 }
 /* ------------------------- Maker Section --------------------------- */
 #maker{
-    font-size: 28px;
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
+#maker2{
+    font-size: 18px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    line-height: 2;
 }
 #divider{
     margin: 50px 0px 10px 0px;
     height: 10px;
-    width: auto;
+    max-width: 860px;
     background: #F8C3DA;
 }
 @media only screen and (max-width: 600px) {
+  #maker{
+      font-size: 24px;
+      padding-bottom: 20px;
+  }
+  #maker2{
+      font-size: 18px;
+      padding-right: 50px;
+      line-height: normal;
+  }
     #divider{
         margin: 50px 0px 10px 0px;
         height: 10px;
-        width: 300px;
+        max-width: 260px;
         background: #F8C3DA;
     }
+
 }
 /* ------------------------- Projects --------------------------- */
 #projects{
@@ -232,7 +256,7 @@ footer{
 #contacttitle{
     padding-top: 50px;
     font-size: 38px;
-}  
+}
 #cartoonParul{
     margin-top: 50px;
     width: 250px;
