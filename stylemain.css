@@ -11,7 +11,7 @@ body{
 @media only screen and (max-width: 768px) {
     body {
         width: 100%;
-        margin-left: 10px;
+        margin-left: 5px;
         margin-right: 10px;
     }
 }
@@ -49,7 +49,7 @@ a:hover{
 }
 @media only screen and (max-width: 768px) {
     #parul {
-        padding-top: 75px;
+        padding-top: 30px;
         padding-bottom: 10px;
         font-size: 40px;
     }
@@ -76,7 +76,7 @@ a:hover{
   }
 
     #projectimage {
-        max-width: 85%;
+        max-width: 60%;
         margin-left: 0px;
         padding: 20px 0px 0px 0px;
     }
