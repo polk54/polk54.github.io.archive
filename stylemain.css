@@ -1,6 +1,9 @@
 /* ------------------------- General Styling ----------------------- */
+html{
+  max-width: 1000px;
+}
+
 body{
-    margin:auto;
     max-width: 1000px;
     padding-top: 50px;
     padding-left:50px;
@@ -9,6 +12,10 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
+  html {
+      width: 100%;
+  }
+}
     body {
         width: 100%;
         padding-left: 20px;
@@ -54,11 +61,6 @@ a:hover{
     }
 }
 /* ------------------------- Projects --------------------------- */
-#projects{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-}
 
 #projectimage{
     display: block;
@@ -70,12 +72,8 @@ a:hover{
 /* for mobile */
 @media only screen and (max-width: 768px) {
 
-  #projects{
-      width: 600px;
-  }
-
     #projectimage {
-        max-width: 60%;
+        max-width: 95%;
         margin-left: 0px;
         padding: 20px 0px 0px 0px;
     }
