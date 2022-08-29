@@ -1,3 +1,4 @@
 # polk54.github.io
 
-this contains the files for my personal portfolio at: https://www.parulagarwal.com/
+Code and images for: https://www.parulagarwal.com/
+All images copyright Ⓒ 2022 Parul Agarwal - All rights reserved
