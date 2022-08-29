@@ -52,7 +52,15 @@ a:hover{
         font-size: 58px;
     }
 }
-/* ---
+/* ------------------------- Projects --------------------------- */
+#projectimage{
+    position: absolute;
+    height: 400px;
+    width: auto;
+    margin-left: 25px;
+    padding: 90px 0px 0px 0px;
+}
+
 /* ------------------------- Footer --------------------------- */
 footer{
     margin-top: 100px;
