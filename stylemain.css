@@ -1,15 +1,16 @@
 /* ------------------------- General Styling ----------------------- */
 body{
     margin:auto;
-    max-width:1000px;
+    max-width: 1000px;
     padding-top: 50px;
     padding-left:50px;
     margin-bottom: 50px;
     font-family: "Open Sans", sans-serif;
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 768px) {
     body {
+        width: 100%;
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -46,7 +47,7 @@ a:hover{
     padding-bottom: 20px;
     font-size: 20px;
 }
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 768px) {
     #parul {
         padding-top: 75px;
         padding-bottom: 10px;
@@ -68,7 +69,7 @@ a:hover{
 }
 
 /* for mobile */
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 768px) {
 
   #projects{
       width: 600px;
