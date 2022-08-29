@@ -11,7 +11,7 @@ body{
 @media only screen and (max-width: 768px) {
     body {
         width: 100%;
-        padding-left: 10px;
+        padding-left: 20px;
         padding-right: 10px;
     }
 }
@@ -50,7 +50,6 @@ a:hover{
 @media only screen and (max-width: 768px) {
     #parul {
         padding-top: 30px;
-        padding-bottom: 10px;
         font-size: 40px;
     }
 }
