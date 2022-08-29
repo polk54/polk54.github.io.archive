@@ -1,0 +1,44 @@
+/* ------------------------- General Styling ----------------------- */
+/* change color of selection */
+::selection {
+    background: #F8C3DA; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    background: #F8C3DA; /* Gecko Browsers */
+}
+
+/* all links */
+
+a{
+    color: #D93A95;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #00B7EC;
+    text-decoration: none;
+}
+
+#caption{
+    text-align: center;
+    font-size: 12px;
+}
+/* ------------------------- Header --------------------------- */
+#parul{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    font-size: 64px;
+}
+@media only screen and (max-width: 600px) {
+    #parul {
+        padding-top: 75px;
+        padding-bottom: 30px;
+        font-size: 58px;
+    }
+}
+/* ---
+/* ------------------------- Footer --------------------------- */
+footer{
+    margin-top: 100px;
+    font-size: 14px;
+}
