@@ -1,14 +1,14 @@
 /* ------------------------- General Styling ----------------------- */
 body{
     margin:auto;
-    max-width:920px;
+    max-width:1000px;
     padding-top: 50px;
     padding-left:50px;
     margin-bottom: 50px;
     font-family: "Open Sans", sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 660px) {
     body {
         margin-left: 10px;
         margin-right: 10px;
@@ -35,32 +35,52 @@ a:hover{
     text-decoration: none;
 }
 
-#caption{
-    text-align: center;
-    font-size: 12px;
-}
 /* ------------------------- Header --------------------------- */
 #parul{
     padding-top: 100px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     font-size: 64px;
 }
-@media only screen and (max-width: 600px) {
+#description{
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+@media only screen and (max-width: 660px) {
     #parul {
         padding-top: 75px;
-        padding-bottom: 30px;
-        font-size: 58px;
+        padding-bottom: 10px;
+        font-size: 40px;
     }
 }
 /* ------------------------- Projects --------------------------- */
-#projectimage{
-    position: absolute;
-    height: 400px;
-    width: auto;
-    margin-left: 25px;
-    padding: 90px 0px 0px 0px;
+#projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
 }
 
+#projectimage{
+    display: block;
+    height: auto;
+    max-width: 85%;
+    margin-left: 25px;
+    padding: 50px 0px 0px 0px;
+}
+
+/* for mobile */
+@media only screen and (max-width: 660px) {
+
+  #projects{
+      width: 600px;
+  }
+
+    #projectimage {
+        max-width: 85%;
+        margin-left: 0px;
+        padding: 20px 0px 0px 0px;
+    }
+}
 /* ------------------------- Footer --------------------------- */
 footer{
     margin-top: 100px;
