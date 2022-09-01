@@ -1,79 +1,49 @@
-/* ------------------------- General Styling ----------------------- */
-
-body{
-    padding-top: 50px;
-    padding-left: 10%;
-    margin-bottom: 50px;
-    font-family: "Open Sans", sans-serif;
+/* ------------------------- Desktop ----------------------- */
+body {
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  /* This will restrict the width of the content.
+  Max-width makes it so that it is fluid UNTIL it gets to Xpx*/
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media only screen and (max-width: 815px) {
-
-    body {
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 10px;
-    }
+header{
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 
-/* change color of selection */
-::selection {
-    background: #F8C3DA; /* WebKit/Blink Browsers */
+h1 {
+  margin: auto auto 0 auto;
+  font-size: 64px;
 }
-::-moz-selection {
-    background: #F8C3DA; /* Gecko Browsers */
-}
-
-/* all links */
-
-a{
-    color: #D93A95;
-    text-decoration: none;
+h2 {
+  margin: 0 auto 32px auto;
+  font-size: 24px;
 }
 
-a:hover{
-    color: #00B7EC;
-    text-decoration: none;
+img {
+  max-width: 100%;
 }
 
-/* ------------------------- Header --------------------------- */
-#parul{
-    padding-top: 80px;
-    padding-bottom: 0px;
-    font-size: 64px;
+footer {
+  margin-top: 80px;
+  font-size: 12px;
 }
-#description{
-    padding-top: 0px;
-    padding-bottom: 20px;
-    font-size: 20px;
-}
-@media only screen and (max-width: 815px) {
-    #parul {
-        padding-top: 30px;
-        font-size: 40px;
-    }
-}
-/* ------------------------- Projects --------------------------- */
-
-#projectimage{
-    display: block;
-    height: auto;
-    width: 70%;
-    max-width: 1000px;
-    padding: 50px 0px 0px 0px;
-}
-
-/* for mobile */
-@media only screen and (max-width: 815px) {
-
-    #projectimage {
-        max-width: 90%;
-        margin-left: 0px;
-        padding: 20px 0px 0px 0px;
-    }
-}
-/* ------------------------- Footer --------------------------- */
-footer{
-    margin-top: 200px;
-    font-size: 10px;
+/* ------------------------- Mobile ----------------------- */
+@media (max-width: 700px) {
+  body {
+    margin: 40px auto 10px auto;
+    padding: 0 15px 0 15px;
+  }
+  header{
+    padding: 0px
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 24px;
+  }
 }
