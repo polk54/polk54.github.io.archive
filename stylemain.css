@@ -32,7 +32,7 @@ footer {
   font-size: 12px;
 }
 /* ------------------------- Mobile ----------------------- */
-@media (max-width: 700px) {
+@media (max-width: 1200px) {
   body {
     margin: 40px auto 10px auto;
     padding: 0 15px 0 15px;
