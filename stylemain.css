@@ -36,8 +36,8 @@ footer {
 /* ------------------------- Mobile ----------------------- */
 @media (max-width: 1200px) {
   body {
-    margin: 150px auto 10px auto;
-    padding: 0 40px 0 40px;
+    margin: 80px auto 10px auto;
+    padding: 0 60px 0 60px;
   }
   header{
     padding: 0px
