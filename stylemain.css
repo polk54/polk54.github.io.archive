@@ -16,11 +16,13 @@ header{
 
 h1 {
   margin: auto auto 0 auto;
-  font-size: 64px;
+  font-size: 72px;
+  font-weight: 300;
 }
 h2 {
   margin: 0 auto 32px auto;
-  font-size: 24px;
+  font-size: 36px;
+  font-weight: 200;
 }
 
 img {
@@ -34,16 +36,17 @@ footer {
 /* ------------------------- Mobile ----------------------- */
 @media (max-width: 1200px) {
   body {
-    margin: 40px auto 10px auto;
-    padding: 0 15px 0 15px;
+    margin: 150px auto 10px auto;
+    padding: 0 40px 0 40px;
   }
   header{
     padding: 0px
   }
   h1 {
-    font-size: 40px;
+    font-size: 72px;
   }
   h2 {
-    font-size: 24px;
+    font-size: 36px;
+    padding: 0 0 36px 0;
   }
 }
